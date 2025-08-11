@@ -1,0 +1,73 @@
+body {
+    background-color: #4C2A85;
+}
+ /* General page style */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4C2A85, #6B7FD7);
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+
+}
+
+  img {
+    float: right;
+    margin: 10px;
+}
+
+
+/* Center content vertically & horizontally */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Welcome heading */
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Subheading or welcome text */
+p {
+    font-size: 1.2em;
+    max-width: 500px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+/* Button style */
+button, a.button {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover, a.button:hover {
+    background-color: #0056b3;
+    color: black;
+    transform: scale(1.05);
+}
+
+
+ul{
+    list-style-type:none;
+}
+
+a {
+    text-decoration: none;
+}

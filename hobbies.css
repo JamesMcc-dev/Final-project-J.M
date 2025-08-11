@@ -1,0 +1,38 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #4C2A85, #6B7FD7);
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.2); /* Slight transparency for gradient effect */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.hobby {
+    background-color: blue;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.hobby h2 {
+    color: #4C2A85;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
