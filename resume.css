@@ -2,9 +2,26 @@ body {
     background-color: #4C2A85;
     padding:40px;
     font-family: segoe UI;
+    color: white;
 
 }
 
+ img {
+    float: left;
+  width:293px;
+  height:286px;
+  transform: scaleY(-1);
+}
+
+
+    #container {
+   /* justify-content: center; */
+  /* display:flex;  */
+    height: 1600px;
+    margin:0 auto;
+    width:80%;
+    background-color:#AAAAAA;
+    padding-top:5px;}
 
 .center-name title {
     display: flex;
@@ -20,6 +37,7 @@ body {
 
 .h2 {
     text-align: center;
+    display:flex;
     font-size: 30px;
     color:blue;
 }
@@ -52,4 +70,25 @@ text-align: center;
 
 #work {
     font-size::25px;
+}
+
+ #navigation{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:rgb(77,45,136);
+
+}
+
+ li{
+    float:left;
+ }
+
+li a {
+    text-decoration: none;
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
 }

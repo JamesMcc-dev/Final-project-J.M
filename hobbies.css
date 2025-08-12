@@ -2,12 +2,12 @@
     font-family: Arial, sans-serif;
     margin: 0;
     background: linear-gradient(to right, #4C2A85, #6B7FD7);
-    color: #333;
+    color:white;
 }
 
 header {
     background-color: rgba(0, 0, 0, 0.2); /* Slight transparency for gradient effect */
-    color: black;
+    color:rgb(77,45,136) ;
     padding: 20px;
     text-align: center;
 }
@@ -27,12 +27,15 @@ main {
 }
 
 .hobby h2 {
-    color: #4C2A85;
+    color: white;
 }
 
 footer {
     text-align: center;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: white;
-}
+    color:white ;
+}      \
+
+/* the following css addresses the hobbies page */
+

@@ -1,30 +1,31 @@
-body {
-    background-color: #4C2A85;
-}
+
+
  /* General page style */
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #4C2A85, #6B7FD7);
     margin: 0;
     padding: 0;
-    color: black;
-    text-align: center;
+
 
 }
 
   img {
-    float: right;
-    margin: 10px;
+    float: left;
+  width:293px;
+  height:286px;
 }
 
 
 /* Center content vertically & horizontally */
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+#container {
+   /* justify-content: center; */
+  /* display:flex;  */
+    height: 800px;
+    margin:0 auto;
+    width:80%;
+    background-color:#AAAAAA;
+    padding-top:5px;
 }
 
 /* Welcome heading */
@@ -36,12 +37,22 @@ h1 {
 
 /* Subheading or welcome text */
 p {
-    font-size: 1.2em;
-    max-width: 500px;
+    font-size: 14pt;
     line-height: 1.5;
-    margin-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
 
 }
+span{
+    font-size:20pt;
+    font-weight:bold;
+    font-family:Aarial,sans-serif;
+
+}
+
+
+
+
 
 /* Button style */
 button, a.button {
@@ -66,8 +77,21 @@ button:hover, a.button:hover {
 
 ul{
     list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:rgb(77,45,136);
+
 }
 
-a {
+ li{
+    float:left;
+ }
+
+li a {
     text-decoration: none;
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
 }
